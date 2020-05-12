@@ -1,6 +1,6 @@
 name: Shell check
 on:
-  - pull_request
+  - {push, pull_request]
 
 jobs:
   sh-checker:
